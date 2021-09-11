@@ -1,0 +1,14 @@
+{
+  "name": "form-3T",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/trannhatnguyen2/demo-form3T.git",
+  "author": "Hao Huynh <haohuynh1101-hub>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15"
+  }
+}

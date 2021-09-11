@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+.form-item{
+    @apply flex justify-center flex-col;
+}
+.form-item .title{
+    @apply flex items-center space-x-2;
+}
+@import "tailwindcss/utilities";

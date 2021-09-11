@@ -164,11 +164,68 @@ html{
 
 
 
+/*Hao Huynh*/
+.bg-home{
+    background: url('../img/Background\ 3T\ KO\ TITLE-AD\ 1.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+/**css standard for label and input in FORM SUBMIT*/
+.form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-item > .title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.form-item > .title > label{
+    color: #000000;
+    font-weight: 600;
+}
+.form-item > .title > span{
+    color: red;
+    margin-left: 2px;
+}
+.form-item > input{
+    border:1px solid #fafafa;
+    padding: 8px;
+    color: #000;
+    place-content: #fafafa;
+    border-radius: 8px;
+}
+.form-item > select{
+    border:1px solid #fafafa;
+    padding: 8px;
+    color: #000;
+    place-content: #fafafa;
+    border-radius: 8px;
+}
+/***/
 
+input:focus , select:focus, textarea:focus{
+    outline: none;
+}
 
+label{
+    color: black;
+    font-weight: 400;
+}
 
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
 
-
+  
 
 
